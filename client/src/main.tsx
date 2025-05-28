@@ -1,10 +1,9 @@
-import './index.css';
-import { createGameScene } from './game/engine';
+import { createGameScene } from './core/engine';
 
 const canvas = document.getElementById('renderCanvas') as HTMLCanvasElement;
 
-const { engine, scene } = createGameScene(canvas);
-
-engine.runRenderLoop(() => {
-  scene.render();
+createGameScene(canvas).then(({ engine, scene }) => {
+  engine.runRenderLoop(() => {
+    scene.render();
+  });
 });
