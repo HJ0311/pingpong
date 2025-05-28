@@ -13,6 +13,7 @@
     "@babylonjs/core": "^8.9.1",
     "@babylonjs/gui": "^8.9.1",
     "@babylonjs/loaders": "^8.9.1",
+    "cannon-es": "^0.20.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },

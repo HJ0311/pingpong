@@ -15,7 +15,7 @@ export function setupPlayerInput(player1: Mesh, player2: Mesh, scene: Scene) {
   });
 
   scene.onBeforeRenderObservable.add(() => {
-    const speed = 0.2;
+    const speed = 0.1;
 
     if (inputMap['ArrowLeft']) player1.position.x += speed;
     if (inputMap['ArrowRight']) player1.position.x -= speed;

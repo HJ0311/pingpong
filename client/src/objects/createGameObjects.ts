@@ -79,7 +79,7 @@ export async function createGameObjects(scene: Scene): Promise<GameObjects> {
     height: 0.2,
     depth: 0.05,
   }, scene);
-  player1Box.isVisible = true;
+  player1Box.isVisible = false;
   player1Box.parent = player1;
   player1Box.position = new Vector3(0.58, 0.1, 0);
 
