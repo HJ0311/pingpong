@@ -1,0 +1,12 @@
+{
+  "name": "pingpong-game",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "dependencies": {
+    "@babylonjs/loaders": "^8.9.1"
+  }
+}

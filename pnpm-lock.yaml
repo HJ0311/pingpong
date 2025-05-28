@@ -1,0 +1,38 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@babylonjs/loaders':
+        specifier: ^8.9.1
+        version: 8.9.1(@babylonjs/core@8.9.1)(babylonjs-gltf2interface@8.9.1)
+
+packages:
+
+  '@babylonjs/core@8.9.1':
+    resolution: {integrity: sha512-YJvsQgjEtBIKDJXCi+6rhPH5UJ46QbaMknO5fQGg8tT2PI5L6D+vfrhdZc1YNnzDrOmLkrkXF/Uy2CGdXFdT9Q==}
+
+  '@babylonjs/loaders@8.9.1':
+    resolution: {integrity: sha512-8UolyusbjHoVVD2nNrqMMNS0a6OIiGrxPyzs6LYqCRFuXKXNhnFIPYCNU3WEBeD5Uc3+UQXgSaQpZudtjflFMw==}
+    peerDependencies:
+      '@babylonjs/core': ^8.0.0
+      babylonjs-gltf2interface: ^8.0.0
+
+  babylonjs-gltf2interface@8.9.1:
+    resolution: {integrity: sha512-7GjEcvwL+d/lJ058J7rYTM96reekIq/kjg6SkM7NG6+Krj7UM3HMeJkAhwj22dCBfOs2/RzjFSGleEhh5qjq5g==}
+
+snapshots:
+
+  '@babylonjs/core@8.9.1': {}
+
+  '@babylonjs/loaders@8.9.1(@babylonjs/core@8.9.1)(babylonjs-gltf2interface@8.9.1)':
+    dependencies:
+      '@babylonjs/core': 8.9.1
+      babylonjs-gltf2interface: 8.9.1
+
+  babylonjs-gltf2interface@8.9.1: {}
